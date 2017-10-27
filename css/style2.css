@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f9fb;
+}
+
+/* Main Classes*/
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row::before, .row::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.row {
+  height: 100%;
+}
+
+/* Grid */
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* Button */
+
+.button {
+    font-size: 20px;
+    font-weight: 100;
+    width: 200px;
+    height: 55px;
+    border: none;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Header */
+
+header{
+  position: relative;
+    background-image: url("../images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: cover; 
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;*/
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+/* Main Navigation*/
+
+.main-nav {
+    height: 100px;
+    padding-top: 49px;
+    padding-left: 15px;
+}
+
+.main-nav ul {
+    float: right;
+    padding-top: 17px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 19px;
+    margin-right: 14px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Header Content*/
+
+.header_content {
+    color: #262626;
+    background-color: transparent;
+    z-index: 1;
+    margin-top: 250px;
+    padding-left: 15px;
+}
+
+.header_content h2 {
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 13px;
+}
+
+.header_content p {
+    line-height: 27px;
+
+}
+
+.header_button {
+    margin-top: 28px;
+    background-color: #fe6033;
+    color: #fff;
+}
+
+.scroll {
+  position: absolute;
+    top: 0;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    display: flex; /* add */
+    justify-content: center; /* add to align horizontal */
+    align-items: flex-end;; /
+
+}
