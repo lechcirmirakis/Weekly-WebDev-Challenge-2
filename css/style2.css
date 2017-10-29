@@ -32,6 +32,7 @@ body {
 [class*="col-"] {
   float: left;
   min-height: 1px;
+  border: 1px solid lightgrey;
 }
 
 .col-1 {
@@ -195,6 +196,7 @@ header{
 
 .cup_img {
   position: relative;
+  min-height: 620px;
 }
 
 .cup_img img {
@@ -203,3 +205,28 @@ header{
 }
 
 /* Services */
+
+.services {
+  background-color: #70c0ff;
+  min-height: 700px;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.serv_btns {
+  padding: 78px 0px 63px 112px;
+}
+
+.serv_btn {
+    position: relative;
+    max-width: 400px;
+    height: 100px;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+}
