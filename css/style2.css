@@ -32,7 +32,7 @@ body {
 [class*="col-"] {
   float: left;
   min-height: 1px;
-  border: 1px solid lightgrey;
+  /*border: 1px solid lightgrey;*/
 }
 
 .col-1 {
@@ -215,7 +215,7 @@ header{
 }
 
 .serv_btns {
-  padding: 78px 0px 63px 112px;
+  padding: 78px 0px 0px 112px;
 }
 
 .serv_btn {
@@ -226,7 +226,35 @@ header{
     background-color: #fff;
     margin-bottom: 20px;
     cursor: pointer;
+    text-align: center;
     -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+
+}
+
+.serv_title {
+  min-height: 560px;
+  background-image: url('../images/tomatos.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.serv_title h2 {
+  font-size: 90px;
+  font-weight: 700;
+  margin-top: 210px;
+}
+
+.serv_btn p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 33px;
+}
+
+.btn_img {
+  border-left: 1px solid black;
+  height: 100%;
+  padding-top: 28px;
 }
