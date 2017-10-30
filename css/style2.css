@@ -86,16 +86,15 @@ body {
 /* Button */
 
 .button {
-    font-size: 20px;
-    font-weight: 100;
-    width: 200px;
-    height: 55px;
-    border: none;
-    text-transform: uppercase;
-    -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+  font-size: 20px;
+  width: 200px;
+  height: 55px;
+  border: none;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Header */
@@ -228,8 +227,8 @@ header{
     cursor: pointer;
     text-align: center;
     -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -294,4 +293,43 @@ box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
   margin-top: 28px;
   background-color: #5585a2;
   color: #fff;
+}
+
+/* Subscribe */
+
+.subscribe {
+  background-image: url('../images/sub_bg.jpg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0px 100px 20px;
+  min-height: 500px;
+  color: #262626;
+}
+
+.subscribe h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 35px 0 20px 0;
+}
+
+.sub_form {
+  margin-top: 26px;
+}
+.subscribe p {
+  line-height: 27px;
+}
+
+.sub_btn {
+  background-color: #96b92c;
+  color: #fff;
+  width: 165px;
+}
+
+.sub_input {
+  height: 55px;
+  width: 71%;
+  border: 1px solid #262626;
+  margin-right: 30px;
+  padding: 10px;
 }
