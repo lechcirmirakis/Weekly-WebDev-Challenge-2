@@ -1,0 +1,9 @@
+@media only screen and (max-width: 992px) {
+  .fixed_nav ul {
+    display: none;
+  }
+
+  .nav-icon {
+    display: block;
+  }
+}
