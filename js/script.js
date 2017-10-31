@@ -1,6 +1,26 @@
 $(document).ready(function(){
-	$('.nav-icon').click(function(){
-		$(this).toggleClass('open');
-		$('.dropdown-menu').toggleClass('show');
-	});
+
+		// $(window).scroll(function() {
+		//
+		// 	if ($(window).scrollTop() < 80 ) {
+		//
+		// 	}
+		//
+		//
+		//
+		//
+		// });
+		//
+		//
+		//
+
+
+
+
+
+
+	// $('.nav-icon').click(function(){
+	// 	$(this).toggleClass('open');
+	// 	$('.dropdown-menu').toggleClass('show');
+	// });
 });
