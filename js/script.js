@@ -1,19 +1,20 @@
 $(document).ready(function(){
 
+	// script for fixed_nav changes
 	$(window).scroll(function() {
 
 		if ($(window).scrollTop() > 100 ) {
 			$('.fixed_nav').css ({
-				'height': '60px',
+				'height': '70px',
 				'background-color': 'rgba(249, 249, 251, 0.8)'
 			});
 
 			$('.main_logo').css ({
-			'margin-top': '4px'
+			'margin-top': '7px'
 			});
 
 			$('.fixed_nav ul').css ({
-			'margin-top': '22px'
+			'margin-top': '26px'
 			});
 
 		}
@@ -27,12 +28,26 @@ $(document).ready(function(){
 			$('.main_logo').css ({
 			'margin-top': '22px'
 			});
-			
+
 			$('.fixed_nav ul').css ({
 			'margin-top': '38px'
 			});
 		}
 	});
+
+	// script for smooth scrool links
+	$('a[href^="#"]').on('click', function(event) {
+
+		var target = $($(this).attr('href'));
+
+		if ( target.length ) {
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: target.offset().top
+			}, 800);
+		}
+	});
+
 
 	// $('.nav-icon').click(function(){
 	// 	$(this).toggleClass('open');
