@@ -35,7 +35,7 @@ $(document).ready(function(){
 		}
 	});
 
-	// script for smooth scrool links
+	// script for smooth scroll links
 	$('a[href^="#"]').on('click', function(event) {
 
 		var target = $($(this).attr('href'));
