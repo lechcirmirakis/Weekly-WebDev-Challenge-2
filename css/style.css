@@ -188,13 +188,10 @@ header{
 
 .scroll {
   position: absolute;
-  top: 800px;
-  bottom: 50px;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;; /
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  bottom: 37px;
 }
 
 /* About */
