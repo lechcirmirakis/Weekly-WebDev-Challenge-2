@@ -1,8 +1,8 @@
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+}*/
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -102,10 +102,16 @@ body {
 header{
   position: relative;
   background-image: url("../images/main_bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  width: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.header_overlay {
+  min-height: 950px;
 }
 
 /* Main Navigation*/
@@ -298,12 +304,10 @@ header{
 /* Header Content*/
 
 .header_content {
-  position: absolute;
-  top: 322px;
-  max-width: 400px;
   color: #262626;
   background-color: transparent;
   margin-left: 13px;
+  margin-top: 320px;
   z-index: 1;
 }
 
@@ -316,6 +320,7 @@ header{
 .header_content p {
   line-height: 27px;
   margin-bottom: 28px;
+  padding-right: 250px;
 }
 
 .header_button {

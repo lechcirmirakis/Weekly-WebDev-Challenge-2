@@ -3,6 +3,10 @@
     display: none;
   }
 
+  [class*="col-"] {
+    width: 100%;
+  }
+
   .nav-icon {
     display: block;
   }
