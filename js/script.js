@@ -6,7 +6,6 @@ $(document).ready(function(){
 		if ($(window).scrollTop() > 100 ) {
 			$('.fixed_nav').css ({
 				'height': '70px',
-				'background-color': 'rgba(249, 249, 251, 0.8)'
 			});
 
 			$('.main_logo').css ({
@@ -19,14 +18,17 @@ $(document).ready(function(){
 
 			$('.nav-icon').css ({
 				'margin-top': '11px'
-			})
+			});
+
+			$('.dropdown-menu').css ({
+				'top': '69px'
+			});
 
 		}
 
 		else {
 			$('.fixed_nav').css ({
 				'height': '100px',
-				'background-color': 'transparent'
 			});
 
 			$('.main_logo').css ({
@@ -40,6 +42,9 @@ $(document).ready(function(){
 			$('.nav-icon').css ({
 				'margin-top': '26px'
 			})
+			$('.dropdown-menu').css ({
+				'top': '99px'
+			});
 		}
 	});
 

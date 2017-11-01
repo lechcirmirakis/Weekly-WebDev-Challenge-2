@@ -112,7 +112,7 @@ header{
 
 .fixed_nav {
   width: 100%;
-  background-color: transparent;
+  background-color: rgba(249, 249, 251, 0.9);
   position: fixed;
   z-index: 110;
   height: 100px;
@@ -261,6 +261,39 @@ header{
   top: 29px;
 }
 
+.dropdown-menu {
+    position: fixed;
+    top: 99px;
+    width: 100%;
+    background-color: rgba(249, 249, 251, 0.9);
+    z-index: 2;
+    text-align: center;
+    -moz-transition: all 800ms;
+  	-0-transition: all 800ms;
+  	-webkit-transition: all 800ms;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 20px 0 15px 0;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-menu a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover, li:focus {
+  background-color: #fe6033;
+}
 
 /* Header Content*/
 
