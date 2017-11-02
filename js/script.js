@@ -6,6 +6,7 @@ $(document).ready(function(){
 		if ($(window).scrollTop() > 100 ) {
 			$('.fixed_nav').css ({
 				'height': '70px',
+				'background-color': 'rgba(249, 249, 251, 0.9)'
 			});
 
 			$('.main_logo').css ({
@@ -29,6 +30,7 @@ $(document).ready(function(){
 		else {
 			$('.fixed_nav').css ({
 				'height': '100px',
+				'background-color': 'transparent'
 			});
 
 			$('.main_logo').css ({

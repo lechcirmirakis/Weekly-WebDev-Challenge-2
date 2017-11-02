@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1199px) {
+
   .header_overlay {
     min-height: 700px;
   }
@@ -6,22 +7,40 @@
   .header_content {
     margin-top: 280px;
   }
+
+  .about_text {
+    padding-left: 85px;
+  }
+
+  .about h2 {
+    font-size: 60px;
+  }
 }
 
-@media only screen and (max-width: 1080px) {
-  .header_content p {
-    padding-right: 50px;
+@media only screen and (max-width: 991px) {
+
+  [class*="col-"] {
+    width: 100%;
   }
+
+  .header_content p {
+    padding-right: 450px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about_text {
+    padding: 0 100px;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
 
   .fixed_nav ul {
     display: none;
-  }
-
-  [class*="col-"] {
-    width: 100%;
   }
 
   .header_content {
@@ -38,6 +57,10 @@
 
   .header_content p {
     padding-right: 250px;
+  }
+
+  .about_text {
+    padding: 0 30px;
   }
 
 }
@@ -58,6 +81,10 @@
 
   .header_button {
     margin-bottom: 50px;
+  }
+
+  .about_text {
+    padding: 0;
   }
 }
 
