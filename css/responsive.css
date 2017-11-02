@@ -15,12 +15,29 @@
   .about h2 {
     font-size: 60px;
   }
+
+  .serv_title h2 {
+    font-size: 60px;
+  }
+
+  .cup_img img {
+    margin-left: -25px;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
 
   [class*="col-"] {
     width: 100%;
+  }
+
+  .services .col-9 {
+    width: 75%;
+  }
+
+  .services .col-3 {
+    width: 25%;
   }
 
   .header_content p {
@@ -33,6 +50,37 @@
 
   .about_text {
     padding: 0 100px;
+  }
+
+  .cup_img img {
+    margin-left: 0;
+  }
+
+  .cup_img {
+    padding: 0 100px;
+  }
+
+  .serv_btn {
+    max-width: 0;
+    min-width: 400px;
+  }
+
+  .serv_btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services .row {
+    transform: scaleY(-1);
+  }
+
+  .serv_btns, .serv_title {
+    transform: scaleY(-1);
+  }
+
+  .serv_title {
+    margin-top: 30px;
   }
 
 }
@@ -63,13 +111,13 @@
     padding: 0 30px;
   }
 
+  .cup_img {
+    padding: 0 50px;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
-
-  .header_overlay {
-    min-height: 640px;
-  }
 
   .header_content p {
     padding-right: 70px;
@@ -86,11 +134,22 @@
   .about_text {
     padding: 0;
   }
+
+  .serv_btn {
+    min-width: 90%;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
   .header_content p {
     padding-right: 13px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .services .serv_btn:nth-of-type(3) p {
+    padding-top: 20px;
   }
 }
 

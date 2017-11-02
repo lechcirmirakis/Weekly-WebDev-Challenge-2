@@ -129,7 +129,6 @@ header{
 .main_logo {
   float: left;
   margin-top: 22px;
-  margin-left: 13px;
   -moz-transition: all 800ms;
 	-0-transition: all 800ms;
 	-webkit-transition: all 800ms;
@@ -282,12 +281,12 @@ header{
 }
 
 .dropdown-menu li {
-    padding: 15px 0 15px 0;
+    padding: 5px 0 5px 0;
     border-bottom: 1px solid black;
 }
 
 .dropdown-menu a {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #000;
     text-transform: uppercase;
@@ -307,7 +306,6 @@ header{
 .header_content {
   color: #262626;
   background-color: transparent;
-  margin-left: 13px;
   margin-top: 320px;
   z-index: 1;
 }
@@ -349,7 +347,7 @@ header{
 
 .about_text {
   padding-top: 90px;
-  padding-left: 85px;
+  padding-left: 20px;
 }
 
 .about h2 {
@@ -362,58 +360,51 @@ header{
   line-height: 27px;
   margin-bottom: 10px;
 }
-/*
-.cup_img {
-  position: relative;
-  min-height: 620px;
-}
 
 .cup_img img {
-  position: absolute;
-  left: -45px;
-}*/
+  margin-left: -50px;
+}
 
 /* Services */
 
 .services {
+  position: relative;
   background-color: #70c0ff;
-  min-height: 790px;
-  padding: 100px 0;
+  min-height: 630px;
+  padding: 70px 0;
   color: #fff;
   text-align: center;
 }
 
 .serv_btns {
-  padding: 78px 0px 0px 112px;
+  min-height: 500px;
 }
 
 .serv_btn {
-    position: relative;
-    max-width: 400px;
-    height: 100px;
-    color: #000;
-    background-color: #fff;
-    margin-bottom: 20px;
-    cursor: pointer;
-    text-align: center;
-    -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-
+  position: relative;
+  max-width: 400px;
+  height: 100px;
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
 }
 
 .serv_title {
-  min-height: 560px;
+  min-height: 500px;
   background-image: url('../images/tomatos.png');
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  background-size: contain;
 }
 
 .serv_title h2 {
   font-size: 90px;
   font-weight: 700;
-  margin-top: 210px;
+  margin-top: 170px;
 }
 
 .serv_btn p {
