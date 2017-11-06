@@ -378,6 +378,7 @@ header{
 
 .serv_btns {
   min-height: 500px;
+  padding-top: 20px;
 }
 
 .serv_btn {
@@ -446,7 +447,7 @@ header{
 }
 
 .gallery_img {
-  padding: 15px;
+  padding: 8px;
 }
 .gallery img {
   -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
@@ -458,6 +459,12 @@ header{
   margin-top: 28px;
   background-color: #5585a2;
   color: #fff;
+}
+
+.gallery .row_hide {
+  display: none;
+  height: 100%;
+  margin: 0 20px;
 }
 
 /* Subscribe */
