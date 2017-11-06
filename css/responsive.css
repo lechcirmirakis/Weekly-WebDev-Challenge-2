@@ -36,6 +36,11 @@
     min-height: 0;
     height: 100%;
   }
+
+  .sub_input {
+    width: 60%;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -117,6 +122,15 @@
     max-width: 370px;
   }
 
+  .subscribe {
+    padding: 100px 0;
+  }
+
+  .subscribe p {
+    padding-right: 225px;
+  }
+
+
 @media only screen and (max-width: 835px) {
   .gallery .row_hide, .row {
     margin: 0 20px;
@@ -166,6 +180,10 @@
     padding: 0 30px;
   }
 
+  .subscribe p {
+    padding-right: 100px;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -194,11 +212,31 @@
     padding: 0;
   }
 
+  .sub_btn {
+    margin-top: 20px;
+  }
+
+  .subscribe {
+    padding: 70px 0;
+  }
+
+  .subscribe p {
+    padding-right: 50px;
+  }
+
+  .sub_input {
+    width: 90%;
+  }
+
 }
 
 @media only screen and (max-width: 450px) {
   .header_content p {
     padding-right: 13px;
+  }
+
+  .subscribe p {
+    padding-right: 0;
   }
 }
 

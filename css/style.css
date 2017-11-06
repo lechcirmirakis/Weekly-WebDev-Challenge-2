@@ -474,15 +474,14 @@ header{
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 100px 0px 140px 20px;
-  min-height: 500px;
+  padding: 100px 0 140px 0;
   color: #262626;
 }
 
 .subscribe h2 {
   font-size: 40px;
   font-weight: 700;
-  margin: 35px 0 20px 0;
+  margin-bottom: 20px;
 }
 
 .sub_form {
