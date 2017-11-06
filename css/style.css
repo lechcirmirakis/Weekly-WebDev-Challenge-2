@@ -442,7 +442,6 @@ header{
 
 .gallery p {
   line-height: 27px;
-  padding: 0 10px;
   margin-bottom: 40px;
 }
 
@@ -527,7 +526,6 @@ header{
 
 .blog p {
   line-height: 27px;
-  padding: 0 10px;
   margin-bottom: 40px;
 }
 
@@ -557,6 +555,7 @@ header{
 }
 
 .blog_date {
+  position: absolute;
   width: 60px;
   height: 60px;
   background-color: rgba(0, 0, 0, 0.4);
@@ -605,6 +604,7 @@ header{
 .blog_btn {
   background-color: #f72b3b;
   color: #fff;
+  margin-top: 20px;
 }
 
 /* Contact */

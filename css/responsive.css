@@ -41,6 +41,14 @@
     width: 60%;
   }
 
+  .blog h2 {
+    font-size: 60px;
+  }
+
+  .blog_header {
+    padding: 0 180px;
+  }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -130,6 +138,14 @@
     padding-right: 225px;
   }
 
+  .blog_header {
+    padding: 0 80px;
+  }
+
+  .blog_img {
+    margin: 12px auto;
+  }
+
 
 @media only screen and (max-width: 835px) {
   .gallery .row_hide, .row {
@@ -184,6 +200,10 @@
     padding-right: 100px;
   }
 
+  .blog_header {
+    padding: 0 30px;
+  }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -226,6 +246,10 @@
 
   .sub_input {
     width: 90%;
+  }
+
+  .blog_header {
+    padding: 0;
   }
 
 }
