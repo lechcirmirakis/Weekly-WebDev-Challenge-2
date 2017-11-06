@@ -57,6 +57,14 @@
     width: 25%;
   }
 
+  .footer .col-5 {
+    width: 41.66667%;
+  }
+
+  .footer .col-2 {
+    width: 16.66667%;
+  }
+
   .header_content p {
     padding-right: 450px;
   }
@@ -216,6 +224,27 @@
   .blog_header {
     padding: 0 30px;
   }
+
+  .footer [class*="col-"] {
+    width: 100%;
+  }
+
+  .footer .left, .right {
+    text-align: center;
+    float: none;
+  }
+
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer p {
+    margin: 10px 0;
+  }
+
+
+
+
 
 }
 
