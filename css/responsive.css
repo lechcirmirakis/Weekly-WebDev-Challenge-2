@@ -12,12 +12,12 @@
     padding-left: 85px;
   }
 
-  .about h2 {
+  .container h2 {
     font-size: 60px;
   }
 
-  .serv_title h2 {
-    font-size: 60px;
+  .subscribe h2 {
+    font-size: 40px;
   }
 
   .cup_img img {
@@ -28,10 +28,6 @@
     padding: 0 180px;
   }
 
-  .gallery h2 {
-    font-size: 60px;
-  }
-
   .gallery {
     min-height: 0;
     height: 100%;
@@ -39,10 +35,6 @@
 
   .sub_input {
     width: 60%;
-  }
-
-  .blog h2 {
-    font-size: 60px;
   }
 
   .blog_header {
@@ -144,6 +136,27 @@
 
   .blog_img {
     margin: 12px auto;
+  }
+
+  .contact .row:nth-of-type(2)  {
+    transform: scaleY(-1);
+  }
+
+  .contact_content, .contact_form {
+    transform: scaleY(-1);
+    text-align: center;
+  }
+
+  .contact_content {
+    margin-top: 30px;
+  }
+
+  .contact input, textarea {
+    width: 100%;
+  }
+
+  .contact_header p {
+    margin-bottom: 20px;
   }
 
 
@@ -250,6 +263,10 @@
 
   .blog_header {
     padding: 0;
+  }
+
+  .contact_form {
+    margin: 0;
   }
 
 }
