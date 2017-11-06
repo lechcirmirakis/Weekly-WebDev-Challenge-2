@@ -24,7 +24,7 @@
     margin-left: -25px;
   }
 
-  .gallery_header {
+  .gallery_header, .blog_header {
     padding: 0 180px;
   }
 
@@ -35,10 +35,6 @@
 
   .sub_input {
     width: 60%;
-  }
-
-  .blog_header {
-    padding: 0 180px;
   }
 
 }
@@ -104,7 +100,7 @@
     transform: scaleY(-1);
   }
 
-  .serv_title {
+  .serv_title, .contact_content {
     margin-top: 30px;
   }
 
@@ -155,10 +151,6 @@
     text-align: center;
   }
 
-  .contact_content {
-    margin-top: 30px;
-  }
-
   .contact input, textarea {
     width: 100%;
   }
@@ -169,6 +161,7 @@
 
 
 @media only screen and (max-width: 835px) {
+
   .gallery .row_hide, .row {
     margin: 0 20px;
   }
@@ -205,7 +198,7 @@
     padding-right: 250px;
   }
 
-  .about_text {
+  .about_text, .gallery_header, .blog_header {
     padding: 0 30px;
   }
 
@@ -213,16 +206,8 @@
     padding: 0 50px;
   }
 
-  .gallery_header {
-    padding: 0 30px;
-  }
-
   .subscribe p {
     padding-right: 100px;
-  }
-
-  .blog_header {
-    padding: 0 30px;
   }
 
   .footer [class*="col-"] {
@@ -241,11 +226,6 @@
   .footer p {
     margin: 10px 0;
   }
-
-
-
-
-
 }
 
 @media only screen and (max-width: 575px) {
@@ -262,16 +242,12 @@
     margin-bottom: 50px;
   }
 
-  .about_text {
+  .about_text, .gallery_header, .blog_header {
     padding: 0;
   }
 
   .serv_btn {
     min-width: 90%;
-  }
-
-  .gallery_header {
-    padding: 0;
   }
 
   .sub_btn {
@@ -290,10 +266,6 @@
     width: 90%;
   }
 
-  .blog_header {
-    padding: 0;
-  }
-
   .contact_form {
     margin: 0;
   }
@@ -301,6 +273,7 @@
 }
 
 @media only screen and (max-width: 450px) {
+
   .header_content p {
     padding-right: 13px;
   }
@@ -311,12 +284,14 @@
 }
 
 @media only screen and (max-width: 400px) {
+
   .services .serv_btn:nth-of-type(3) p {
     padding-top: 20px;
   }
 }
 
 @media only screen and (min-width: 767px) {
+
   .dropdown-menu {
     display: none;
   }
