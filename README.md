@@ -9,3 +9,5 @@ Full responsive website from Weekly WebDev Challenge (FB Group)
 1. Html5
 2. Css3
 3. jQuery
+
+![alt text](https://github.com/lechcirmirakis/Weekly-WebDev-Challenge-2/blob/master/images/screen.jpg)
